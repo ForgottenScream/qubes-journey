@@ -1,15 +1,20 @@
 title: "Qubes Journey Docs"
 description: "My documentation and learning log for Qubes OS."
-theme: just-the-docs
 
-url: "https://forgottenscream.github.io
+# Use the remote theme (works on GitHub Pages without a Gemfile)
+remote_theme: just-the-docs/just-the-docs
+
+# GitHub Pages-safe plugins
+plugins:
+  - jekyll-remote-theme
+
+# Site URLs for a *project site* repo
+url: "https://forgottenscream.github.io"
 baseurl: "/qubes-journey"
 
+# Theme options
 search_enabled: true
 color_scheme: light
 
-#Navigation order
-nav_sort: case_insensitive
-
-#Footer
+# (Optional) footer
 footer_content: "@ 2025 ForgottenScream - Qubes Journey Docs"
