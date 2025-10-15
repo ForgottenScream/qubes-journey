@@ -1,0 +1,15 @@
+title: "Qubes Journey Docs"
+description: "My documentation and learning log for Qubes OS."
+theme: just-the-docs
+
+url: "https://forgottenscream.github.io
+baseurl: "/qubes-journey"
+
+search_enabled: true
+color_scheme: light
+
+#Navigation order
+nav_sort: case_insensitive
+
+#Footer
+footer_content: "@ 2025 ForgottenScream - Qubes Journey Docs"
